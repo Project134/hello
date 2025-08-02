@@ -1,9 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Chotu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(45deg, #ff9a9e, #fecfef, #fecfef, #ff9a9e);
+            margin: 0;
+            padding: 50px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        h1 {
+            color: #d63384;
+            font-size: 3em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .emoji-container {
+            font-size: 2em;
+            line-height: 1.5;
+            max-width: 800px;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .kiss-emoji {
+            display: inline-block;
+            margin: 5px;
+            animation: bounce 3s infinite;
+            animation-delay: calc(var(--i) * 0.1s);
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+    </style>
 </head>
 <body>
-    <h1>hello</h1>
+    <h1>Hello Chotu! 💕</h1>
+    
+    <div class="emoji-container">
+        <span class="kiss-emoji" style="--i: 1;">😘</span>
+        <span class="kiss-emoji" style="--i: 2;">💋</span>
+        <span class="kiss-emoji" style="--i: 3;">😗</span>
+        <span class="kiss-emoji" style="--i: 4;">😚</span>
+        <span class="kiss-emoji" style="--i: 5;">💋</span>
+        <span class="kiss-emoji" style="--i: 6;">😘</span>
+        <span class="kiss-emoji" style="--i: 7;">😗</span>
+        <span class="kiss-emoji" style="--i: 8;">😚</span>
+        <span class="kiss-emoji" style="--i: 9;">💋</span>
+        <span class="kiss-emoji" style="--i: 10;">😘</span>
+        <span class="kiss-emoji" style="--i: 11;">😗</span>
+        <span class="kiss-emoji" style="--i: 12;">😚</span>
+        <span class="kiss-emoji" style="--i: 13;">💋</span>
+        <span class="kiss-emoji" style="--i: 14;">😘</span>
+        <span class="kiss-emoji" style="--i: 15;">😗</span>
+        <span class="kiss-emoji" style="--i: 16;">😚</span>
+        <span class="kiss-emoji" style="--i: 17;">💋</span>
+        <span class="kiss-emoji" style="--i: 18;">😘</span>
+        <span class="kiss-emoji" style="--i: 19;">😗</span>
+        <span class="kiss-emoji" style="--i: 20;">😚</span>
+        <span class="kiss-emoji" style="--i: 21;">💋</span>
+        <span class="kiss-emoji" style="--i: 22;">😘</span>
+        <span class="kiss-emoji" style="--i: 23;">😗</span>
+        <span class="kiss-emoji" style="--i: 24;">😚</span>
+        <span class="kiss-emoji" style="--i: 25;">💋</span>
+        <span class="kiss-emoji" style="--i: 26;">😘</span>
+        <span class="kiss-emoji" style="--i: 27;">😗</span>
+        <span class="kiss-emoji" style="--i: 28;">😚</span>
+        <span class="kiss-emoji" style="--i: 29;">💋</span>
+        <span class="kiss-emoji" style="--i: 30;">😘</span>
+        <span class="kiss-emoji" style="--i: 31;">😗</span>
+        <span class="kiss-emoji" style="--i: 32;">😚</span>
+        <span class="kiss-emoji" style="--i: 33;">💋</span>
+        <span class="kiss-emoji" style="--i: 34;">😘</span>
+        <span class="kiss-emoji" style="--i: 35;">😗</span>
+        <span class="kiss-emoji" style="--i: 36;">😚</span>
+        <span class="kiss-emoji" style="--i: 37;">💋</span>
+        <span class="kiss-emoji" style="--i: 38;">😘</span>
+        <span class="kiss-emoji" style="--i: 39;">😗</span>
+        <span class="kiss-emoji" style="--i: 40;">😚</span>
+    </div>
 </body>
 </html>
